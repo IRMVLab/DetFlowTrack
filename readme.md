@@ -55,7 +55,7 @@ cd tools
 python inference.py --ckpt=../pretrained_weight/checkpoint_epoch_76.pth --cfg_file=cfgs/kitti_models/pv_rcnn_DetTrack_test.yaml
 ```
 将跟踪结果提交到KITTI MOT服务器上,结果为
-
+![image](https://github.com/IRMVLab/DetFlowTrack/blob/main/test_result/result.PNG)
 
 
 ### Acknowledgments
