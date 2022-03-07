@@ -3,7 +3,15 @@
 Created by Yueling Shen, Guangming Wang, and Hesheng Wang
 
 ### Citation
-
+If you find our work useful in your research, please cite:
+```
+@article{shen2021detflowtrack,
+  title={DetFlowTrack: 3D Multi-object Tracking based on Simultaneous Optimization of Object Detection and Scene Flow Estimation},
+  author={Shen, Yueling and Wang, Guangming and Wang, Hesheng},
+  journal={arXiv preprint  	arXiv:2203.02157},
+  year={2022}
+}
+```
 ### Abstract
 3D Multi-Object Tracking (MOT) is an important part of the unmanned vehicle perception module. Most methods optimize object detection and data association independently. These methods make the network structure complicated and limit the improvement of MOT accuracy. 
 we proposed a 3D MOT framework based on simultaneous optimization of object detection and scene flow estimation. In the framework, a detection-guidance scene flow module is proposed to relieve the problem of incorrect inter-frame assocation. For more accurate scene flow label especially in the case of motion with rotation, a box-transformation-based scene flow ground truth calculation method is proposed. 
