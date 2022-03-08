@@ -25,7 +25,7 @@ MOT dataset show competitive results over the state-of-the-arts and the robustne
 ```
 pip install -r requirements.txt
 ```
-1.2 Install the [OpenPCDet](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/INSTALL.md).
+1.2 Install according to the [OpenPCDet](https://github.com/open-mmlab/OpenPCDet/blob/master/docs/INSTALL.md).
 
 #### 2. Datasets Preparation
 Generate Object Database with KITTI Object DataSets.
