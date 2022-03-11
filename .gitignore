@@ -15,3 +15,4 @@ build/
 pcdet.egg-info/
 .idea/
 .pth
+pretrained_weight/

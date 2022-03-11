@@ -50,7 +50,8 @@ python inference.py --ckpt=../pretrained_weight/checkpoint_epoch_76.pth --cfg_fi
 ```
 在cfg中指定项目目录ROOT_DIR, 最终结果保存在"ROOT_DIR/output/"下.多目标跟踪结果保存在track_results/data中.
 可通过[TrackEval](https://github.com/JonathonLuiten/TrackEval) 得到HOTA指标
-提供的预训练权重pretrained_weight/checkpoint_epoch_76.pth的精度指标为:
+提供的预训练权重pretrained_weight/checkpoint_epoch_76.pth(链接：https://pan.baidu.com/s/1e_klYYTPfxwaYy9beyiBdQ 
+提取码：axcc )的精度指标为:
 
 | 类别 | HOTA | DetA | AssA | LocA |
 | ------ | ------ | ------ | ------| ------|
