@@ -5,7 +5,6 @@ import torch.nn.functional as F
 from .sceneflow_head_template import SceneflowHeadTemplate
 from .pwc_point_util import knn_point, index_points_group, PointConv, Conv1d
 from pcdet.utils import box_utils
-from pcdet.ops.pointnet2.pointnet2_3DSSD import pointnet2_utils
 
 import mayavi.mlab as mlab
 from pcdet.utils.visual_utils import visualize_utils as V
