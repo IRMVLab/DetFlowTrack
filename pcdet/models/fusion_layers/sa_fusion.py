@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from ...ops.pointnet2.pointnet2_batch import pointnet2_modules
+from ...ops.pointnet2.pointnet2_stack import pointnet2_modules
 import torchsnooper
 #两层特征聚合,先帧间特征聚合再帧内特征聚合
 
