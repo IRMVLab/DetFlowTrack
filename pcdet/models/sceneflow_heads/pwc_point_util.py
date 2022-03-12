@@ -2,7 +2,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from pcdet.ops.pointnet2.pointnet2_3DSSD import pointnet2_utils
+# from pcdet.ops.pointnet2.pointnet2_3DSSD import pointnet2_utils
+from pcdet.ops.pointnet2.pointnet2_stack import pointnet2_utils
 
 import torchsnooper
 
